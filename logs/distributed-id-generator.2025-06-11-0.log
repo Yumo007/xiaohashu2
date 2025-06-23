@@ -1,0 +1,26 @@
+2025-06-11 08:51:06.800 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 08:51:06.915 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 08:51:08.992 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 08:51:09.013 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 08:51:09.014 [main] INFO  c.q.x.d.i.g.b.XiaohashuDistributedIdGeneratorBizApplication - The following 1 profile is active: "dev"
+2025-06-11 08:51:09.722 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=435afa5f-b2ad-30a4-b100-92ccf504f149
+2025-06-11 08:51:10.152 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2025-06-11 08:51:10.168 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-11 08:51:10.168 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-06-11 08:51:10.353 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-11 08:51:10.354 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2025-06-11 08:51:10.655 [main] INFO  c.q.x.d.i.g.biz.core.segment.SegmentIDGenImpl - Init ...
+2025-06-11 08:51:10.655 [main] INFO  c.q.x.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db
+2025-06-11 14:12:42.105 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 14:12:42.267 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 14:12:45.446 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 14:12:45.489 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-11 14:12:45.491 [main] INFO  c.q.x.d.i.g.b.XiaohashuDistributedIdGeneratorBizApplication - The following 1 profile is active: "dev"
+2025-06-11 14:12:46.848 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=435afa5f-b2ad-30a4-b100-92ccf504f149
+2025-06-11 14:12:47.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2025-06-11 14:12:47.632 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-11 14:12:47.633 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-06-11 14:12:47.974 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-11 14:12:47.974 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2454 ms
+2025-06-11 14:12:48.452 [main] INFO  c.q.x.d.i.g.biz.core.segment.SegmentIDGenImpl - Init ...
+2025-06-11 14:12:48.453 [main] INFO  c.q.x.d.i.g.biz.core.segment.SegmentIDGenImpl - update cache from db

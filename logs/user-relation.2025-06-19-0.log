@@ -1,0 +1,386 @@
+2025-06-19 13:31:23.179 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-19 13:31:23.552 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-19 13:31:24.645 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-19 13:31:24.653 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-06-19 13:31:24.653 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-06-19 13:31:24.659 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-06-19 13:31:24.975 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-06-19 13:31:24.976 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-06-19 13:31:24.991 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-06-19 13:31:26.254 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-19 13:31:26.299 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\lenovo\nacos\config
+2025-06-19 13:31:26.316 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 67d90893-4546-4ef0-a42d-0119b0f41dad_config-0
+2025-06-19 13:31:26.403 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$572/0x0000000800f673b0
+2025-06-19 13:31:26.404 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$573/0x0000000800f677d0
+2025-06-19 13:31:26.405 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-06-19 13:31:26.407 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-06-19 13:31:26.447 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-06-19 13:31:26.552 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-06-19 13:31:30.662 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1750311090275_127.0.0.1_53242
+2025-06-19 13:31:30.665 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Notify connected event to listeners.
+2025-06-19 13:31:30.665 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Connected,notify listen context...
+2025-06-19 13:31:30.666 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-06-19 13:31:30.667 [main] INFO  com.alibaba.nacos.common.remote.client - [67d90893-4546-4ef0-a42d-0119b0f41dad_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$593/0x00000008010b7088
+2025-06-19 13:31:30.909 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-06-19 13:31:30.965 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation] & group[DEFAULT_GROUP]
+2025-06-19 13:31:30.978 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation.yaml] & group[DEFAULT_GROUP]
+2025-06-19 13:31:30.986 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-user-relation-dev.yaml] & group[DEFAULT_GROUP]
+2025-06-19 13:31:30.989 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-user-relation,DEFAULT_GROUP'}]
+2025-06-19 13:31:31.051 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-06-19 13:31:31.052 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-06-19 13:31:33.196 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-19 13:31:33.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-19 13:31:33.265 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2025-06-19 13:31:33.760 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=4e3205ab-39ef-38fe-b862-8cdb7e892169
+2025-06-19 13:31:33.841 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.597 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.800 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.807 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.808 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$747/0x00000008012c3810] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.820 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:34.822 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-19 13:31:35.638 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-06-19 13:31:35.666 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-19 13:31:35.666 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-06-19 13:31:36.022 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-19 13:31:36.023 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4921 ms
+2025-06-19 13:31:36.391 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-06-19 13:31:37.523 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-06-19 13:31:39.263 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-06-19 13:31:43.006 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_FollowUnfollowTopic', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-06-19 13:31:43.007 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-06-19 13:31:43.011 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:31:43.310 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-06-19 13:31:43.515 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:31:45.441 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-19 13:31:45.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2025-06-19 13:31:45.561 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-06-19 13:31:45.561 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-06-19 13:31:45.562 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-06-19 13:31:45.586 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-06-19 13:31:45.586 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-06-19 13:31:45.593 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of bc21ceae-02f4-4e9a-8e13-9da488166b1a
+2025-06-19 13:31:45.597 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-06-19 13:31:45.597 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-06-19 13:31:45.599 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-06-19 13:31:45.599 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-06-19 13:31:45.599 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-06-19 13:31:45.723 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1750311105608_127.0.0.1_53307
+2025-06-19 13:31:45.723 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-06-19 13:31:45.723 [main] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$593/0x00000008010b7088
+2025-06-19 13:31:45.723 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bc21ceae-02f4-4e9a-8e13-9da488166b1a] Notify connected event to listeners.
+2025-06-19 13:31:45.723 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-06-19 13:31:45.726 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='192.168.42.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-06-19 13:31:45.740 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 192.168.42.1:8087 register finished
+2025-06-19 13:31:46.023 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:31:46.141 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 26.256 seconds (process running for 28.54)
+2025-06-19 13:31:46.148 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-06-19 13:31:46.149 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation.yaml+DEFAULT_GROUP+xiaohashu
+2025-06-19 13:31:46.173 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP, cnt=1
+2025-06-19 13:31:46.173 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation.yaml, group=DEFAULT_GROUP
+2025-06-19 13:31:46.174 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation+DEFAULT_GROUP+xiaohashu
+2025-06-19 13:31:46.174 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation, group=DEFAULT_GROUP, cnt=1
+2025-06-19 13:31:46.174 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation, group=DEFAULT_GROUP
+2025-06-19 13:31:46.175 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-user-relation-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-06-19 13:31:46.175 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-06-19 13:31:46.175 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-user-relation-dev.yaml, group=DEFAULT_GROUP
+2025-06-19 13:32:09.051 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:13.517 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:13.642 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:32.093 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:43.509 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:43.639 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:55.107 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:32:58.110 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:12.496 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:12.656 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:15.498 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:33:15.672 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:33:21.111 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:33:24.121 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:42.504 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:42.642 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:33:45.507 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:33:45.643 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:33:48.651 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:11.650 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:34:12.484 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:12.638 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:15.487 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:34:15.650 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:18.652 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:34:38.649 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:34:41.650 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:42.481 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:44.663 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:34:45.482 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:34:47.665 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:04.648 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:07.649 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:12.510 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:12.641 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:15.530 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:15.645 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:30.671 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:33.671 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:42.481 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:42.612 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:35:45.483 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:45.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:56.694 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:35:59.694 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:12.485 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:12.607 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:15.486 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:15.621 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:22.696 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:25.710 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:42.461 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:42.606 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:36:45.462 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:45.622 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:48.717 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:36:51.718 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:12.466 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:12.606 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:14.718 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:37:15.468 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:37:17.718 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:40.726 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:37:42.452 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:42.606 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:45.453 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:37:45.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:37:48.616 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:08.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:11.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:12.457 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:14.618 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:15.471 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:17.621 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:34.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:37.615 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:42.444 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:42.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:38:45.445 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:38:45.588 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:00.613 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:03.621 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:12.449 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:12.589 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:15.450 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:15.590 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:26.623 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:29.627 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:42.432 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:42.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:39:45.434 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:45.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:52.639 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:39:55.641 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:12.428 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:12.570 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:15.430 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:40:15.572 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:40:18.642 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:40:21.640 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:42.431 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:42.564 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:40:44.642 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:40:45.435 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:40:47.649 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:10.648 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:41:12.433 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:12.571 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:15.436 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:41:15.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:18.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:41:38.592 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:41:41.593 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:42.427 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:44.597 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:41:45.446 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:41:47.604 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:04.591 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:07.605 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:12.410 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:12.550 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:15.419 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:15.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:30.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:33.616 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:42.424 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:42.548 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:42:45.425 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:45.550 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:56.619 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:42:59.624 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:12.420 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:12.542 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:15.423 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:15.544 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:22.623 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:25.626 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:42.399 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:42.538 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:43:45.401 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:45.541 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:48.637 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:43:51.650 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:12.405 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:12.534 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:14.656 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:44:15.410 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:44:17.658 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:40.675 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:44:42.390 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:42.540 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:45.394 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:44:45.542 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:44:48.543 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:08.555 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:11.555 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:12.396 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:14.569 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:15.401 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:17.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:34.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:37.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:42.707 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:42.707 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:45:45.723 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:45:45.724 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:00.594 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:03.604 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:12.392 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:12.532 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:15.403 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:15.544 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:26.628 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:29.632 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:42.388 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:42.529 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:46:45.404 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:45.543 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:52.655 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:46:55.665 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:12.400 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:12.537 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:15.412 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:47:15.550 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:47:18.688 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:47:21.690 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:42.396 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:42.536 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:47:44.712 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:47:45.411 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:47:47.725 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:10.728 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:48:12.388 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:12.528 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:15.401 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:48:15.541 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:18.545 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:48:38.555 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:48:41.564 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:42.374 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:44.571 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:48:45.386 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:48:47.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:04.571 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:07.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:12.384 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:12.522 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:15.393 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:15.531 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:30.588 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:33.603 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:42.373 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:42.512 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:49:45.376 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:45.545 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:56.627 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:49:59.636 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:12.370 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:12.508 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:15.372 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:15.524 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:22.646 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:25.648 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:42.359 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:42.500 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:50:45.367 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:45.506 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:48.670 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:50:51.676 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:12.369 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:12.504 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:14.685 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:51:15.378 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:51:17.684 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:40.700 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:51:42.353 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:42.493 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:45.364 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:51:45.503 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:51:48.515 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:08.517 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:11.522 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:12.356 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:14.531 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:15.360 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:17.534 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:34.539 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:37.548 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:42.352 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:42.504 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:52:45.362 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:52:45.516 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:00.552 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:03.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:53:12.344 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:53:12.482 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:53:15.359 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:15.497 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:25.983 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-06-19 13:53:25.983 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-19 13:53:25.985 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-06-19 13:53:25.997 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-06-19 13:53:26.587 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:29.599 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:29.600 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-06-19 13:53:30.736 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-06-19 13:53:30.759 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-user-relation with instance: Instance{instanceId='null', ip='192.168.42.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-06-19 13:53:30.795 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7a96241a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-06-19 13:53:30.797 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1750311105608_127.0.0.1_53307
+2025-06-19 13:53:30.816 [nacos-grpc-client-executor-127.0.0.1-276] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1750311105608_127.0.0.1_53307]Ignore complete event,isRunning:false,isAbandon=false
+2025-06-19 13:53:30.881 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2cfccfec[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 277]
+2025-06-19 13:53:30.881 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@78798f52[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 434]
+2025-06-19 13:53:30.882 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-06-19 13:53:30.883 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-06-19 13:53:30.884 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-06-19 13:53:30.941 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_FollowUnfollowTopic', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-06-19 13:53:31.435 [com.alibaba.nacos.client.Worker] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-06-19 13:53:33.954 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:36.955 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.110.1:10911] result: true
+2025-06-19 13:53:37.042 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-06-19 13:53:37.049 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
